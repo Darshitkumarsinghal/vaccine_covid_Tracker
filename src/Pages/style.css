@@ -1,0 +1,40 @@
+.Available{
+    background: #71dfa2; background: -moz-linear-gradient(to right,  #71dfa2 0%,#28c76f 100%); background: -webkit-linear-gradient(to right,  #71dfa2 0%,#28c76f 100%); background: linear-gradient(to right,  #71dfa2 0%,#28c76f 100%);
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 3px;;
+    color:#ffffff
+}
+
+.NotAvailable{
+    background: #ea5455; background: -moz-linear-gradient(45deg,  #ea5455 0%,#feb692 100%); background: -webkit-linear-gradient(45deg,  #ee5d5d 0%,#feb692 100%); background: linear-gradient(45deg,  #ea5455 0%,#feb692 100%);
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 3px;;
+    color:#ffffff
+}
+
+.paper{
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+.Pincode{
+    background: #ace0f9; background: -moz-linear-gradient(18deg,  #ace0f9 0%,#fff2ec 100%); background: -webkit-linear-gradient(18deg,  #ace0f9 0%,#fff2ec 100%); background: linear-gradient(18deg,  #ace0f9 0%,#fff2ec 100%);
+}
+.pincode_data{
+    background: rgba(255, 255, 255, 0.199) !important;
+    margin:13px;
+    padding:10px;
+    margin-bottom: 40px;
+}
+.DataShowing{
+    font-family: 'Lato', sans-serif;
+}
+
+.District{
+    /* background: #599491; background: -moz-linear-gradient(-42deg,  #599491 0%,#214143 100%); background: -webkit-linear-gradient(-42deg,  #599491 0%,#214143 100%); background: linear-gradient(-42deg,  #599491 0%,#214143 100%); */
+    /* background: url(./corona.svg); */
+    color:#000000
+}
