@@ -53,11 +53,11 @@ const Home = () => {
             border:"0.01em solid rgba(255,255,255,0.4)",
             backdropFilter:'blur(2px)',
             fontSize:'2rem',
-            color:'#ffffff'
+            color:''
         },
         home: {
-            backgroundImage:`url(${img})`,
-            //backgroundcolor:'#f5f6fa',
+            //backgroundImage:`url(${img})`,
+            backgroundcolor:'#f5f6fa',
             // backgroundRepeat: "no-repeat",
             //   backgroundAttachment: "fixed",
             //   backgroundSize: "cover",
@@ -117,8 +117,8 @@ const Home = () => {
     return (
       <div>
         <div className="Home" className={classes.home}>
-        <div style={{textAlign:'center', marginTop:'0px', color:'#ffffff', fontSize:'3rem'}}>Welcome to Indian vaccine search portal</div>
-        <div style={{textAlign:'center', marginTop:'0px', color:'#ffffff', fontSize:'1.5rem'}}></div>
+        <div style={{textAlign:'center', marginTop:'0px', color:'', fontSize:'3rem'}}>Welcome to Indian vaccine search portal</div>
+        <div style={{textAlign:'center', marginTop:'0px', color:'', fontSize:'1.5rem'}}></div>
         <Grid container  direction="row"
             justify="space-around"
             alignItems="center" className={classes.root} spacing={3}> 
